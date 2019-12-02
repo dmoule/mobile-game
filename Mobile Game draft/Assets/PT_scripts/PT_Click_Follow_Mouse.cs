@@ -8,7 +8,7 @@ public class PT_Click_Follow_Mouse : MonoBehaviour {
     public float fl_PC_Move_Speed;
     public float fl_proximity_offset = 0.1f;
 
-    private Rigidbody2D RB_PC;
+    private Rigidbody RB_PC;
 
     private Vector2 v2_last_mouse_position;
     private Vector2 v2_movement;
@@ -16,7 +16,7 @@ public class PT_Click_Follow_Mouse : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        RB_PC = gameObject.GetComponent<Rigidbody2D>();
+        RB_PC = gameObject.GetComponent<Rigidbody>();
 
     }
 
