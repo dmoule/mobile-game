@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Mobile Game.unity
+- path: Assets/MOnday work.unity
   isLoaded: 1
   isActive: 1
